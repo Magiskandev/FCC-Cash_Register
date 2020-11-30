@@ -49,7 +49,7 @@ function checkCashRegister(price, cash, cid) {
 
   cid.forEach(arg => totalIn += arg[1]);
 
-  let change = cash - price;
+  var change = cash - price;
 
   console.log(`devuelta original: ${change}.`);
 
